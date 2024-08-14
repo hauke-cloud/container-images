@@ -1,5 +1,10 @@
 # Container Images
 
+![Build Status](https://img.shields.io/github/actions/workflow/status/hauke-cloud/container-images/build.yaml?branch=main)
+![License](https://img.shields.io/github/license/hauke-cloud/container-images)
+![Last Commit](https://img.shields.io/github/last-commit/hauke-cloud/container-images)
+![Contributors](https://img.shields.io/github/contributors/hauke-cloud/container-images)
+
 <p align="center">
   <img src="resources/readme/logo.png" alt="Repository Logo" width="400">
 </p>
