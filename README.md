@@ -45,9 +45,9 @@ To build a (Docker) image using this repository, follow the steps below:
 3. Run the Image
   Run the following command to run the image:
 
-  ```bash
-  docker run -d <image-name>
-  ```
+   ```bash
+   docker run -d <image-name>
+   ```
 
 ## License
 
