@@ -1,13 +1,10 @@
 FROM quay.io/coreos-assembler/coreos-assembler:v0.17.0
 
-# Replace value with the latest runner release version
-# source: https://github.com/actions/runner/releases
-# ex: 2.303.0
+LABEL org.opencontainers.image.source="https://github.com/hauke-cloud/actions-runner-cosa"
+LABEL org.opencontainers.image.description="A Github ARC runner image based on CoreOS Assembler"
+
 ARG RUNNER_VERSION="2.319.0"
 ARG RUNNER_ARCH="x64"
-# Replace value with the latest runner-container-hooks release version
-# source: https://github.com/actions/runner-container-hooks/releases
-# ex: 0.3.1
 ARG RUNNER_CONTAINER_HOOKS_VERSION="0.6.1"
 
 USER root
