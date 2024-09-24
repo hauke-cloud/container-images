@@ -1,4 +1,4 @@
-FROM quay.io/coreos-assembler/coreos-assembler:v0.17.0
+FROM quay.io/coreos-assembler/coreos-assembler:v39.20231101.1.0
 
 LABEL org.opencontainers.image.source="https://github.com/hauke-cloud/actions-runner-cosa"
 LABEL org.opencontainers.image.description="A Github ARC runner image based on CoreOS Assembler"
